@@ -6,7 +6,7 @@ const Photo = props => {
                 src={props.photo.urls.small}
                 alt={props.photo.alt_description}
                 onClick={props.clicked}
-                class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"
+                className="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"
             />
            
         </div>
