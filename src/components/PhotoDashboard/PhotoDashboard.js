@@ -121,14 +121,14 @@ class PhotoDashboard extends Component {
                                 <div className="modal-body">
                                     {
                                       !this.state.ifLeftIndexInvalid ?
-                                      <span class="glyphicon glyphicon-circle-arrow-left"  id="left" onClick={() => this.showPrevImgHandler()}></span> :
+                                      <span className="glyphicon glyphicon-circle-arrow-left"  id="left" onClick={() => this.showPrevImgHandler()}></span> :
                                       ''
                                     }
                                     
                                     <img src={this.state.presentPhoto.urls.small} />
                                     {
                                         !this.state.ifRightIndexInvalid ?
-                                        <span class="glyphicon glyphicon-circle-arrow-right"  id="right" onClick={() => this.showNextImgHandler()}></span> :
+                                        <span className="glyphicon glyphicon-circle-arrow-right"  id="right" onClick={() => this.showNextImgHandler()}></span> :
                                         ''
                                     }
                                     
